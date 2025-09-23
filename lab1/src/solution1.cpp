@@ -12,7 +12,7 @@ int find_target_height(int up, int down, int target) {
         std::exit(1);
     }
 
-    else if (up >= target) { //поменять местами с == 0
+    else if (up >= target) {
         return 1;
     }
 
